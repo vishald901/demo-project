@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 350px;
+  margin-top: 50px;
+}
+.term-cnd {
+  background-color: darkblue;
+  width: 50%;
+}
+.contact-us {
+  background-color: #008cba;
+  width: 50%;
+  color: whitesmoke;
+}
+.office {
+  display: flex;
+}
+.contact-us-div {
+  margin: 10% 10% 10% 10%;
+}
+.term-content {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.icon {
+  display: flex;
+}
+.micon {
+  margin: 10px;
+}

@@ -1,0 +1,21 @@
+.our-team {
+  display: flex;
+  align-items: center;
+  padding: 30px 120px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.our-team-img1 {
+  border-radius: 50%;
+}
+.our-team-btn {
+  color: black;
+  background-color: yellow;
+  width: 75px;
+  height: 30px;
+  border-radius: 15px;
+}
+.our-team-text > h1,
+p {
+  color: black;
+}

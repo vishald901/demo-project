@@ -1,0 +1,77 @@
+.insp {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.insp-content {
+  display: flex;
+  align-items: center;
+}
+
+.card-sdw {
+  position: relative;
+  width: 300px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+.div-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #f0f0f0;
+}
+.slider-container {
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  width: 300%;
+  animation: slide 5s infinite alternate;
+}
+
+.slide {
+  flex: 1;
+  text-align: center;
+  transition: transform 2s ease;
+}
+
+.img-slider {
+  max-width: 100%;
+  height: auto;
+}
+
+.previous-slide {
+  transform: translateX(-100%);
+}
+
+.current-slide {
+  transform: translateX(0);
+}
+
+.next-slide {
+  transform: translateX(100%);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  33.33% {
+    transform: translateX(0);
+  }
+  66.66% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

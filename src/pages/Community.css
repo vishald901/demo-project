@@ -1,0 +1,13 @@
+.vdo {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 30px;
+}
+.vdo-content {
+  display: flex;
+  align-items: center;
+}
+.vdo-grp {
+  display: flex;
+  justify-content: space-between;
+}
