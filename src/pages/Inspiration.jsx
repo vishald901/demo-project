@@ -21,34 +21,157 @@ function Inspiration() {
         </div>
       </div>
 
-      <div className="div-slider">
-        <div className="slider-container">
-          <div className="slider">
-            <div className="slide previous-slide">
-              <img
-                className="img-slider"
-                src="https://media.gettyimages.com/id/459214425/photo/perfect-butterfly-stroke.jpg?s=612x612&w=0&k=20&c=Nw9AZt1hKid0omIjQjli9r7tvYIqcnizhGHKweHsduE="
-                alt="Image 1"
-              />
-            </div>
-            <div className="slide current-slide">
-              <img
-                className="img-slider"
-                src="https://media.gettyimages.com/id/1081891908/photo/little-boy-swimming-crawl-in-pool.jpg?s=612x612&w=0&k=20&c=_3GmzSiIMtqgcPWi2zsz58nBhUQEiEuJSZN61voNeVo="
-                alt="Image 2"
-              />
-            </div>
-            <div className="slide next-slide">
-              <img
-                className="img-slider"
-                src="https://media.gettyimages.com/id/82726781/photo/swimmer-performing-butterfly-stroke.jpg?s=612x612&w=0&k=20&c=4rUyzoq-PqA7pgpKqgdE0_Ex4VDuWsGP4IMEpCJ7d4I="
-                alt="Image 3"
-              />
+      <div class="container">
+        <div class="wgh-slider">
+          <input
+            class="wgh-slider-target"
+            type="radio"
+            id="slide-1"
+            name="slider"
+          />
+          <input
+            class="wgh-slider-target"
+            type="radio"
+            id="slide-2"
+            name="slider"
+          />
+          <input
+            class="wgh-slider-target"
+            type="radio"
+            id="slide-3"
+            name="slider"
+            checked="checked"
+          />
+          <input
+            class="wgh-slider-target"
+            type="radio"
+            id="slide-4"
+            name="slider"
+          />
+          <input
+            class="wgh-slider-target"
+            type="radio"
+            id="slide-5"
+            name="slider"
+          />
+          <div class="wgh-slider__viewport">
+            <div class="wgh-slider__viewbox">
+              <div class="wgh-slider__container">
+                <div class="wgh-slider-item">
+                  <div class="wgh-slider-item__inner">
+                    <figure class="wgh-slider-item-figure">
+                      <img
+                        class="wgh-slider-item-figure__image"
+                        src="https://media.gettyimages.com/id/82726781/photo/swimmer-performing-butterfly-stroke.jpg?s=612x612&w=0&k=20&c=4rUyzoq-PqA7pgpKqgdE0_Ex4VDuWsGP4IMEpCJ7d4I="
+                        alt="The 5th Exotic"
+                      />
+                      <figcaption class="wgh-slider-item-figure__caption">
+                        <a href="https://f4.bcbits.com/img/a3905613628_16.jpg">
+                          The 5th Exotic
+                        </a>
+                        <span>Quantic</span>
+                      </figcaption>
+                    </figure>
+                    <label
+                      class="wgh-slider-item__trigger"
+                      for="slide-1"
+                      title="Show product 1"
+                    ></label>
+                  </div>
+                </div>
+                <div class="wgh-slider-item">
+                  <div class="wgh-slider-item__inner">
+                    <figure class="wgh-slider-item-figure">
+                      <img
+                        class="wgh-slider-item-figure__image"
+                        src="https://media.gettyimages.com/id/82726781/photo/swimmer-performing-butterfly-stroke.jpg?s=612x612&w=0&k=20&c=4rUyzoq-PqA7pgpKqgdE0_Ex4VDuWsGP4IMEpCJ7d4I="
+                        alt="The 5th Exotic"
+                      />
+                      <figcaption class="wgh-slider-item-figure__caption">
+                        <a href="https://f4.bcbits.com/img/a3905613628_16.jpg">
+                          The 5th Exotic
+                        </a>
+                        <span>Quantic</span>
+                      </figcaption>
+                    </figure>
+                    <label
+                      class="wgh-slider-item__trigger"
+                      for="slide-2"
+                      title="Show product 2"
+                    ></label>
+                  </div>
+                </div>
+                <div class="wgh-slider-item">
+                  <div class="wgh-slider-item__inner">
+                    <figure class="wgh-slider-item-figure">
+                      <img
+                        class="wgh-slider-item-figure__image"
+                        src="https://media.gettyimages.com/id/82726781/photo/swimmer-performing-butterfly-stroke.jpg?s=612x612&w=0&k=20&c=4rUyzoq-PqA7pgpKqgdE0_Ex4VDuWsGP4IMEpCJ7d4I="
+                        alt="The 5th Exotic"
+                      />
+                      <figcaption class="wgh-slider-item-figure__caption">
+                        <a href="https://f4.bcbits.com/img/a3905613628_16.jpg">
+                          The 5th Exotic
+                        </a>
+                        <span>Quantic</span>
+                      </figcaption>
+                    </figure>
+                    <label
+                      class="wgh-slider-item__trigger"
+                      for="slide-3"
+                      title="Show product 3"
+                    ></label>
+                  </div>
+                </div>
+                <div class="wgh-slider-item">
+                  <div class="wgh-slider-item__inner">
+                    <figure class="wgh-slider-item-figure">
+                      <img
+                        class="wgh-slider-item-figure__image"
+                        src="https://media.gettyimages.com/id/82726781/photo/swimmer-performing-butterfly-stroke.jpg?s=612x612&w=0&k=20&c=4rUyzoq-PqA7pgpKqgdE0_Ex4VDuWsGP4IMEpCJ7d4I="
+                        alt="The 5th Exotic"
+                      />
+                      <figcaption class="wgh-slider-item-figure__caption">
+                        <a href="https://f4.bcbits.com/img/a3905613628_16.jpg">
+                          The 5th Exotic
+                        </a>
+                        <span>Quantic</span>
+                      </figcaption>
+                    </figure>
+                    <label
+                      class="wgh-slider-item__trigger"
+                      for="slide-4"
+                      title="Show product 4"
+                    ></label>
+                  </div>
+                </div>
+                <div class="wgh-slider-item">
+                  <div class="wgh-slider-item__inner">
+                    <figure class="wgh-slider-item-figure">
+                      <img
+                        class="wgh-slider-item-figure__image"
+                        src="https://media.gettyimages.com/id/82726781/photo/swimmer-performing-butterfly-stroke.jpg?s=612x612&w=0&k=20&c=4rUyzoq-PqA7pgpKqgdE0_Ex4VDuWsGP4IMEpCJ7d4I="
+                        alt="RYSY - Traveler LP"
+                      />
+                      <figcaption class="wgh-slider-item-figure__caption">
+                        <a href="https://picsum.photos/id/237/480/480">
+                          RYSY - Traveler LP
+                        </a>
+                        <span>RYSY</span>
+                      </figcaption>
+                    </figure>
+                    <label
+                      class="wgh-slider-item__trigger"
+                      for="slide-5"
+                      title="Show product 5"
+                    ></label>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
